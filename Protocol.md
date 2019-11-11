@@ -67,5 +67,6 @@ Now for the fun part! You will now run your images through the neural network. I
 
 # Make ground truth data
 To correct the pancreatic area from the NN predictions, use the fiji macro 'adjust_prediction_v1.jim', which you'll find in the Fiji folder of the NN directory. 
-<img width="500" alt="fiji3" src="https://user-images.githubusercontent.com/48200405/68598464-2711a380-049f-11ea-8d0b-203cd35510c8.png"> Open it dragging it into fiji and run the script. You are asked to select the original and the segmented image. Make sure to select the raw nd2 image and the predicted output from the neural network respectively and specify an output folder, where the ground truth data and results will be saved into. Make sure to tick the **Downscale image** box, it is mandatory to downscale the original image to the size of the NN segmentation mask
+<img width="450" alt="fiji3" src="https://user-images.githubusercontent.com/48200405/68598464-2711a380-049f-11ea-8d0b-203cd35510c8.png"> <img width="400" alt="fiji4" src="https://user-images.githubusercontent.com/48200405/68599855-a902cc00-04a1-11ea-95e5-e9147f9f4ef4.png">
+Open it dragging it into fiji and run the script. You are asked to select the original and the segmented image. Make sure to select the raw nd2 image and the predicted output from the neural network respectively and specify an output folder, where the ground truth data and results will be saved into. Make sure to tick the **Downscale image** box, it is mandatory to downscale the original image to the size of the NN segmentation mask
 
