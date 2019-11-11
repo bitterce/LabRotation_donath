@@ -38,5 +38,12 @@ Go to your applications and open Pycharm.
 **This step is important, as we need to shift the working directory from our local machine to the TRANSFER server**. To do this, press 'open' and navigate via the transfer to the NN folder, as shown in the pictures: 
 <img width="400" alt="open" src="https://user-images.githubusercontent.com/48200405/68580283-54962700-0476-11ea-9ecf-f78ff60952fb.png"> <img width="400" alt="open" src="https://user-images.githubusercontent.com/48200405/68584186-2ff27d00-047f-11ea-9a3a-0ad6e0433a45.png">
 
-Stay
-Open the test.py file in the test folder. In the left bottom corner you'll find a panel <No interpreter>
+Make sure to open NN in pycharm, as this will create a new project containing all the python files.
+In the left bottom corner you'll find a panel \<No interpreter\>, click on it and select the newly created environment:
+<img width="335" alt="interpr" src="https://user-images.githubusercontent.com/48200405/68584668-88764a00-0480-11ea-9ba9-b878508f596d.png">
+  
+Open the test.py file in the test folder and and run it using **control + r**
+
+If you see 'Hallo' written to your console, everything worked fine and you're ready to go
+
+# Data preparation
