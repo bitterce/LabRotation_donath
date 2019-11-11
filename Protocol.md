@@ -55,8 +55,12 @@ In this section, there are two major steps you have to perform
 For the first step you should prepare a folder with all the raw images you want to analyse using the Neural Network. Now navigate to the fiji folder as shown below and open the script 'ConvertToRGB_v2.jim' (drag it into fiji not just double clicking). 
 Note: the images are huge, it will take a while to convert them all, use the tatooine (or another) server, for faster processing.
 <img width="1069" alt="fiji" src="https://user-images.githubusercontent.com/48200405/68586000-f3755000-0483-11ea-866f-fc4472a30222.png">
-Run the fiji macro, you'll be asked, what input and output folder to use, use the folder with the raw images as input folder and 'img_RGB' as output folder and start converting.
+<img width="450" alt="fiji2" src="https://user-images.githubusercontent.com/48200405/68587929-8adca200-0488-11ea-9573-dfa42b8eded8.png"> <img width="400" alt="unpro" src="https://user-images.githubusercontent.com/48200405/68587842-5c5ec700-0488-11ea-8f3e-c73f190ac4f7.png"> 
+Run the fiji macro, you'll be asked, what input and output folder to use, use the folder with the raw images as input folder and 'imgs_unprocessed' as output folder and start converting.
 ## Pad and downscale images
 In the same manner as described before, open 'NN' via transfer in pycharm and open the script 'process_images.py'.
 Run the script and wait until all the images are processed (you will see which file is being processed in the console). 
 When all the images have been processed, your dataset should be ready in the NN -> dataset -> imgs folder. 
+
+# Make prediction
+Now for the fun part! You will now run your images through the neural network. In pycharm, open the file 'make_prediction.py' and run it. Every image in the imgs folder will be predicted and saved to the prediction_output folder in the dataset directory. 
