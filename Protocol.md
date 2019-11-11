@@ -31,7 +31,10 @@ If you've successfully activate your environment you should see it in your termi
 
 ## Installing Pycharm
 
-[Click here](https://www.jetbrains.com/pycharm/download/download-thanks.html?platform=mac&code=PCC) to download Pycharm
+[Click here](https://www.jetbrains.com/pycharm/download/download-thanks.html?platform=mac&code=PCC) to download Pycharm.
+
 To see if everything works as expected, we try to run a small test code with Pycharm.
 Go to your applications and open Pycharm. 
-![] (/Users/celinebitter/Desktop/protocol_screenshots/open.png)
+**This step is important, as we need to shift the working directory from our local machine to the TRANSFER server**. To do this, press 'open' and navigate via the transfer to the NN folder, as shown in the pictures: 
+<img width="775" alt="open" src="https://user-images.githubusercontent.com/48200405/68580283-54962700-0476-11ea-9ecf-f78ff60952fb.png">
+<img width="824" alt="open2" src="https://user-images.githubusercontent.com/48200405/68580670-2107cc80-0477-11ea-959b-2fc0259a0a4e.png">
