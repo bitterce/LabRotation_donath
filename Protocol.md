@@ -27,3 +27,11 @@ source pytorch/bin/activate
 If you've successfully activate your environment you should see it in your terminal like this:
 ```
 (pytorch)
+```
+
+## Installing Pycharm
+
+[Click here](https://www.jetbrains.com/pycharm/download/download-thanks.html?platform=mac&code=PCC) to download Pycharm
+To see if everything works as expected, we try to run a small test code with Pycharm.
+Go to your applications and open Pycharm. 
+![] (/Users/celinebitter/Desktop/protocol_screenshots/open.png)
