@@ -36,5 +36,7 @@ If you've successfully activate your environment you should see it in your termi
 To see if everything works as expected, we try to run a small test code with Pycharm.
 Go to your applications and open Pycharm. 
 **This step is important, as we need to shift the working directory from our local machine to the TRANSFER server**. To do this, press 'open' and navigate via the transfer to the NN folder, as shown in the pictures: 
-<img width="775" alt="open" src="https://user-images.githubusercontent.com/48200405/68580283-54962700-0476-11ea-9ecf-f78ff60952fb.png">
-<img width="824" alt="open2" src="https://user-images.githubusercontent.com/48200405/68580670-2107cc80-0477-11ea-959b-2fc0259a0a4e.png">
+<img width="400" alt="open" src="https://user-images.githubusercontent.com/48200405/68580283-54962700-0476-11ea-9ecf-f78ff60952fb.png"> <img width="400" alt="open" src="https://user-images.githubusercontent.com/48200405/68584186-2ff27d00-047f-11ea-9a3a-0ad6e0433a45.png">
+
+Stay
+Open the test.py file in the test folder. In the left bottom corner you'll find a panel <No interpreter>
