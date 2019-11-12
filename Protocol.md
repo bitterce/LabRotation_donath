@@ -72,6 +72,9 @@ Now open the test.py file in the test folder and and run it using **control + r*
 
 If you see 'Hi there, thanks for using my program :)' written to your console, everything worked fine and you're ready to go
 
+# Workflow overview
+<img width="823" alt="Flowchart" src="https://user-images.githubusercontent.com/48200405/68675631-8f708b80-0558-11ea-914c-3004a2c5ed4b.png">
+
 # Workflow without training
 
 ## Data preparation
