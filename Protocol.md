@@ -12,11 +12,21 @@ out: Python 2.7.16
 We need to upgrade this to python 3.7 by following these steps consecutively
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-
+```
+In this step, you're asked to enter a password, it is the same password, as the computer login. This step will take a minute. 
+If the download was successful, proceed with the following steps.
+```
 export PATH="/usr/local/opt/python/libexec/bin:/usr/local/bin:$PATH"
 
 brew install python
+```
+If you check for the version again you should see this:
+```
+out: Python 3.7.5
+```
+We successfully upgraded python! To use python properly, we need to download and create a virtual environment. To do so, please follow those last steps
 
+```
 pip install virtualenv
 
 virtualenv pytorch
@@ -33,14 +43,22 @@ If you've successfully activate your environment you should see it in your termi
 
 [Click here](https://www.jetbrains.com/pycharm/download/download-thanks.html?platform=mac&code=PCC) to download Pycharm.
 
+When opening Pycharm, make sure to not import any settings. We will do that manually
+<img width="422" alt="pycharm" src="https://user-images.githubusercontent.com/48200405/68656268-c7180d00-0531-11ea-8b87-923d627952c4.png">
+
 To see if everything works as expected, we try to run a small test code with Pycharm.
 Go to your applications and open Pycharm. 
 **This step is important, as we need to shift the working directory from our local machine to the TRANSFER server**. To do this, press 'open' and navigate via the transfer to the NN folder, as shown in the pictures: 
 <img width="400" alt="open" src="https://user-images.githubusercontent.com/48200405/68580283-54962700-0476-11ea-9ecf-f78ff60952fb.png"> <img width="400" alt="open" src="https://user-images.githubusercontent.com/48200405/68584186-2ff27d00-047f-11ea-9a3a-0ad6e0433a45.png">
 
 Make sure to open NN in pycharm, as this will create a new project containing all the python files.
-In the left bottom corner you'll find a panel \<No interpreter\>, click on it and select the newly created environment:
-<img width="335" alt="interpr" src="https://user-images.githubusercontent.com/48200405/68584668-88764a00-0480-11ea-9ba9-b878508f596d.png">
+
+In the left bottom corner you'll find a panel \<No interpreter\>, click on it and press **add interpreter**.
+<img width="302" alt="add_int" src="https://user-images.githubusercontent.com/48200405/68657768-9ab1c000-0534-11ea-92ae-a3ae32465ff7.png">
+Add the newly created environment to pycharm as shown in the picture below
+<img width="847" alt="env" src="https://user-images.githubusercontent.com/48200405/68657897-c765d780-0534-11ea-8e19-910241d749dc.png">
+If everything worked as expected, you should see the activated environment in the bottom right corner:
+<img width="327" alt="Screenshot 2019-11-12 at 10 05 11" src="https://user-images.githubusercontent.com/48200405/68658090-17449e80-0535-11ea-8667-86b52d652079.png">
   
 Open the test.py file in the test folder and and run it using **control + r**
 
