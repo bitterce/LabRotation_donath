@@ -55,12 +55,19 @@ Make sure to open NN in pycharm, as this will create a new project containing al
 
 In the left bottom corner you'll find a panel \<No interpreter\>, click on it and press **add interpreter**.
 <img width="302" alt="add_int" src="https://user-images.githubusercontent.com/48200405/68657768-9ab1c000-0534-11ea-92ae-a3ae32465ff7.png">
+
+
 Add the newly created environment to pycharm as shown in the picture below
 <img width="847" alt="env" src="https://user-images.githubusercontent.com/48200405/68657897-c765d780-0534-11ea-8e19-910241d749dc.png">
 If everything worked as expected, you should see the activated environment in the bottom right corner:
 <img width="327" alt="Screenshot 2019-11-12 at 10 05 11" src="https://user-images.githubusercontent.com/48200405/68658090-17449e80-0535-11ea-8667-86b52d652079.png">
+
+As a last step, open the terminal in the bottom left cornor and type:
+```
+pip install -r requirenments.txt
+```
   
-Open the test.py file in the test folder and and run it using **control + r**
+Now open the test.py file in the test folder and and run it using **control + r**
 
 If you see 'Hi there, thanks for using my program :)' written to your console, everything worked fine and you're ready to go
 
