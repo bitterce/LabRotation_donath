@@ -73,8 +73,7 @@ Now open the test.py file in the test folder and and run it using **control + r*
 If you see 'Hi there, thanks for using my program :)' written to your console, everything worked fine and you're ready to go
 
 # Workflow overview
-<img width="809" alt="Screenshot 2019-11-12 at 17 04 13" src="https://user-images.githubusercontent.com/48200405/68688361-e1241080-056e-11ea-8f6a-d914049fdbe1.png">
-
+<img width="773" alt="Screenshot 2019-11-13 at 12 35 05" src="https://user-images.githubusercontent.com/48200405/68760448-29483f00-0612-11ea-801a-67525a1174f9.png">
 # Workflow without training
 
 ## Data preparation
