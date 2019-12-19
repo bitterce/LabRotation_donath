@@ -1,6 +1,8 @@
 # Preparations and setups
 ## Installing python 3.7
 
+If necessary, protocol can be updated on https://github.com/bitterce/LabRotation_donath/blob/master/Protocol.md
+
 Open your terminal by **command + space** + terminal and check for the python version by:
 ```
 python --version
